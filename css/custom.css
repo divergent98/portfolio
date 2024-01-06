@@ -42,17 +42,14 @@
 .section-scroll-dots-navigation.section-scroll-dots-navigation-style-2 {
   background: #dadada50;
 }
-<<<<<<< Updated upstream
 .text-color-orange{
   color: #ff5757 !important;
 }
-@media only screen and (max-width: 792px) {
-=======
+
 .custom-btn:hover{
   color: white;
 }
-@media only screen and (max-width: 600px) {
->>>>>>> Stashed changes
+@media only screen and (max-width: 792px) {
   #intro {
     background-image: url(../img/1-mobile.png);
     background-size: cover;
