@@ -45,7 +45,15 @@
 .text-color-orange{
   color: #ff5757 !important;
 }
-
+.text-color-purple{
+  color: #cb6ce6 !important;
+}
+.text-color-green{
+  color: #c1ff72 !important;
+}
+.text-color-blue{
+  color: #5ce1e6 !important;
+}
 .custom-btn:hover{
   color: white;
 }
