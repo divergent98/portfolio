@@ -64,7 +64,18 @@
   width: 100%;
 }
 
+.small-projects-card{
+border: 1px solid #5ce1e6;
+transition: scale 0.5s ease;
 
+}
+.small-projects-card:hover{
+transform: scale(1.1);
+cursor: pointer;
+  }
+.small-projects-card a{
+  text-decoration: none !important;
+}
 @media only screen and (max-width: 792px) {
   #intro {
     background-image: url(../img/background-mobile-01.png);
@@ -97,4 +108,5 @@
   .custom-margin-top{
     padding-top: 120px;
   }
+  
 }
