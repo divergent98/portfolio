@@ -1,11 +1,11 @@
 #intro{
-  background-image: url(../img/1.png);
+  background-image: url(../img/MEMPHIS_1.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 #touristic-agency {
-  background-image: url(../img/3.png);
+  background-image: url(../img/background-1-01.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -13,7 +13,7 @@
   padding-top: 0px !important;
 }
 #culinary-website {
-  background-image: url(../img/2.png);
+  background-image: url(../img/background-2-01.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -21,7 +21,7 @@
   padding-top: 0px !important;
 }
 #local-guide-app{
-  background-image: url(../img/4.png);
+  background-image: url(../img/background-3-01.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -49,7 +49,7 @@
   color: #cb6ce6 !important;
 }
 .text-color-green{
-  color: #c1ff72 !important;
+  color: #abf34d !important;
 }
 .text-color-blue{
   color: #5ce1e6 !important;
@@ -57,62 +57,44 @@
 .custom-btn:hover{
   color: white;
 }
-@media only screen and (max-width: 1030px) {
-  #intro {
-    background-image: url(../img/1-tablet.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    line-height: 0px !important;
-  }
-  #touristic-agency {
-    background-image: url(../img/3-tablet.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-  #culinary-website {
-    background-image: url(../img/2-tablet.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-  #local-guide-app{
-    background-image: url(../img/4-tablet.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
 
+.agency-image{
+  top: 0;
+  left: 0%;
+  width: 100%;
 }
+
 
 @media only screen and (max-width: 792px) {
   #intro {
-    background-image: url(../img/1-mobile.png);
+    background-image: url(../img/background-mobile-01.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     line-height: 0px !important;
   }
   #touristic-agency {
-    background-image: url(../img/3-mobile.png);
+    background-image: url(../img/background-mobile-2-01.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
   #culinary-website {
-    background-image: url(../img/2-mobile.png);
+    background-image: url(../img/pogresna-narandzasta-01.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
   #local-guide-app{
-    background-image: url(../img/4-mobile.png);
+    background-image: url(../img/background-mobile-4-01.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
   p{
     line-height: 18px;
+  }
+  .custom-margin-top{
+    padding-top: 120px;
   }
 }
